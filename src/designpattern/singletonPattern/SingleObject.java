@@ -7,7 +7,7 @@ package designpattern.singletonPattern;
  */
 public class SingleObject {
 //create an object of SingleObject
-   int i=0;
+
    private static final SingleObject instance = new SingleObject();
 
    //make the constructor private so that this class cannot be
@@ -20,6 +20,10 @@ public class SingleObject {
    }
 
    public static void showMessage(){
-      System.out.println("Hello World!");
+      System.out.println("Zuzu");
+   }
+   
+   public static void testMessage(){
+      System.out.println("Cucu");
    }    
 }
