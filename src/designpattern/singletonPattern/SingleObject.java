@@ -20,11 +20,8 @@ public class SingleObject {
    }
 
    public static void showMessage(){
-      System.out.println("Zuzu");
-      testMessage();
+      System.out.println("Hello World!");
    }
    
-   public static void testMessage(){
-      System.out.println("Cucu");
-   }    
+
 }
