@@ -21,6 +21,7 @@ public class SingleObject {
 
    public static void showMessage(){
       System.out.println("Zuzu");
+      testMessage();
    }
    
    public static void testMessage(){
