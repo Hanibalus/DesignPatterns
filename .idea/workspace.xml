@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a306d5b3-9fc1-4e2d-ad80-c3cada307f8d" name="Default" comment="Rejected commit: Default">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Eugen_Popa.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_netbeans_modules_java_j2seproject_copylibstask.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/designpattern/iteratorPattern/Container.java" afterPath="$PROJECT_DIR$/src/designpattern/iteratorPattern/Container.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/designpattern/iteratorPattern/Iterator.java" afterPath="$PROJECT_DIR$/src/designpattern/iteratorPattern/Iterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/designpattern/iteratorPattern/IteratorPatternDemo.java" afterPath="$PROJECT_DIR$/src/designpattern/iteratorPattern/IteratorPatternDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/designpattern/iteratorPattern/NameRepository.java" afterPath="$PROJECT_DIR$/src/designpattern/iteratorPattern/NameRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/built-jar.properties" afterPath="$PROJECT_DIR$/build/built-jar.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
+    <list default="true" id="a306d5b3-9fc1-4e2d-ad80-c3cada307f8d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/observerPattern/BinaryObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/mementoPattern/CareTaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/mediatorPattern/ChatRoom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/observerPattern/HexaObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/mediatorPattern/MediatorPatternDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/mementoPattern/Memento.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/mementoPattern/MementoPatternDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/observerPattern/Observer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/observerPattern/ObserverPatternDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/observerPattern/OctalObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/mementoPattern/Originator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/observerPattern/Subject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designpattern/mediatorPattern/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,45 +38,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Iterator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/Iterator.java">
+      <file leaf-file-name="Subject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/Container.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NameRepository.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/NameRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34085214" vertical-offset="0" max-vertical-offset="629">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#180#190#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IteratorPatternDemo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/IteratorPatternDemo.java">
+      <file leaf-file-name="Observer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryObserver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/BinaryObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OctalObserver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/OctalObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HexaObserver.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/HexaObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18930958" vertical-offset="0" max-vertical-offset="449">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObserverPatternDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/ObserverPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -107,14 +128,30 @@
         <option value="$PROJECT_DIR$/src/designpattern/iteratorPattern/Iterator.java" />
         <option value="$PROJECT_DIR$/src/designpattern/iteratorPattern/NameRepository.java" />
         <option value="$PROJECT_DIR$/src/designpattern/iteratorPattern/Container.java" />
+        <option value="$PROJECT_DIR$/src/ChatRoom.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/mediatorPattern/ChatRoom.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/mediatorPattern/User.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/mediatorPattern/MediatorPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/Memento.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/mementoPattern/CareTaker.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/mementoPattern/MementoPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/mementoPattern/Originator.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/mementoPattern/Memento.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/Subject.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observerPattern/Observer.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observerPattern/BinaryObserver.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observerPattern/Subject.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observerPattern/OctalObserver.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observerPattern/HexaObserver.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observerPattern/ObserverPatternDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="6" />
-    <option name="width" value="1346" />
-    <option name="height" value="728" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,7 +235,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="iteratorPattern" />
+              <option name="myItemId" value="observerPattern" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,7 +253,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="settings.xslt" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -600,7 +637,7 @@
     </configuration>
     <configuration default="false" name="App" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="designpattern.iteratorPattern.IteratorPatternDemo" />
+      <option name="MAIN_CLASS_NAME" value="designpattern.observerPattern.ObserverPatternDemo" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -625,27 +662,31 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\eugen.popa\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a306d5b3-9fc1-4e2d-ad80-c3cada307f8d" name="Default" comment="" />
       <created>1412625471556</created>
       <updated>1412625471556</updated>
-      <workItem from="1412625481040" duration="2639000" />
+      <workItem from="1412625481040" duration="6241000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1412627348258</created>
       <updated>1412627348258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rejected commit: Default">
+      <created>1412628173277</created>
+      <updated>1412628173277</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2639000" />
+    <option name="totallyTimeSpent" value="6241000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="6" width="1346" height="728" extended-state="0" />
+    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -662,16 +703,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328594" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20478326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20058565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968404" sideWeight="0.57100147" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17535545" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27258804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -695,8 +737,54 @@
     <MESSAGE value="Rejected commit: Default" />
     <option name="LAST_COMMIT_MESSAGE" value="Rejected commit: Default" />
   </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="DesignPatterns" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="DesignPatterns" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -716,8 +804,8 @@
         <state vertical-scroll-proportion="0.33333334" vertical-offset="309" max-vertical-offset="765">
           <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding>
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -743,14 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="238">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/IteratorPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
@@ -759,23 +839,182 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/NameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08133971" vertical-offset="0" max-vertical-offset="629">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/Container.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+        <state vertical-scroll-proportion="0.10845295" vertical-offset="0" max-vertical-offset="627">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/NameRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/iteratorPattern/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34085214" vertical-offset="0" max-vertical-offset="629">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.08133971" vertical-offset="0" max-vertical-offset="627">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adapterPattern/AdapterPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027113238" vertical-offset="0" max-vertical-offset="627">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/mediatorPattern/MediatorPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/mementoPattern/CareTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#170#179#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/mementoPattern/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/mementoPattern/MementoPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/mementoPattern/Memento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3307393" vertical-offset="0" max-vertical-offset="514">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/mediatorPattern/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6284047" vertical-offset="0" max-vertical-offset="514">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/mediatorPattern/ChatRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26459143" vertical-offset="0" max-vertical-offset="514">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#180#190#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/OctalObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/BinaryObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/ObserverPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observerPattern/HexaObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18930958" vertical-offset="0" max-vertical-offset="449">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
