@@ -6,8 +6,6 @@
 
 package designpattern.factoryPatternClasses;
 
-import designpattern.factoryPattern.*;
-
 /**
  *
  * @author Eugen.Popa
